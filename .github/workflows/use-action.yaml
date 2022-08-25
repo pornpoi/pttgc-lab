@@ -1,8 +1,8 @@
-name: CI
+name: Use-Action
 on:
   push:
     branches:
-        - "main"
+        - "master"
 jobs:
     prepare:
         runs-on: ubuntu-latest
